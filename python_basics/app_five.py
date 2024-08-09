@@ -31,7 +31,7 @@ def greet_five(name):
 
 
 message = greet_five("Mosh")
-file = open("content.txt", "w")
+file = open("../content.txt", "w")
 file.write(message)
 
 print(greet_four("Mosh"))
